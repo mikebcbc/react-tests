@@ -4,9 +4,9 @@
   "private": true,
   "proxy": "http://localhost:8080/",
   "devDependencies": {
-    "enzyme": "^2.8.2",
+    "enzyme": "^2.9.1",
     "react-scripts": "0.9.0",
-    "react-test-renderer": "^15.5.4"
+    "react-test-renderer": "^15.6.2"
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
   }
 }

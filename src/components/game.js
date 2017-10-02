@@ -35,10 +35,10 @@ export default class Game extends React.Component {
         const difference = Math.abs(guess - this.state.correctAnswer);
 
         let feedback;
-        if (difference >= 50) {
+        if (difference >= 50) { // Branch
             feedback = 'You\'re Ice Cold...';
         }
-        else if (difference >= 30) {
+        else if (difference >= 30) { // Branch, etc
             feedback = 'You\'re Cold...';
         }
         else if (difference >= 10) {
